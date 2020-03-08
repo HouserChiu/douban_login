@@ -40,8 +40,8 @@ driver.switch_to.frame(0)
 #由于有iframe,点击不到密码登陆，需要转化到iframe
 driver.find_element_by_xpath('/html/body/div[1]/div[1]/ul[1]/li[2]').click()
 
-driver.find_element_by_xpath('//*[@id="username"]').send_keys('18391726137')
-driver.find_element_by_xpath('//*[@id="password"]').send_keys('zhao6776423')
+driver.find_element_by_xpath('//*[@id="username"]').send_keys('你的账号')
+driver.find_element_by_xpath('//*[@id="password"]').send_keys('你的密码')
 driver.find_element_by_xpath('/html/body/div[1]/div[2]/div[1]/div[5]/a').click()
 
 time.sleep(3)
